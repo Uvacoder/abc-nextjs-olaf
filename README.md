@@ -10,15 +10,13 @@ npm run dev
 yarn dev
 ```
 
-You might also need to install some requirements:
+You might also need to install some requirements ([reference](https://github.com/pacocoursey/next-themes)):
 
 ```bash
 npm install next-themes
 # or
 yarn add next-themes
 ```
-
-([reference](https://github.com/pacocoursey/next-themes))
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
