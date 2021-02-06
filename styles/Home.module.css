@@ -46,10 +46,6 @@
 }
 
 .link:hover, .link:focus, .link:active {
-=======
-.link:hover,
-.link:focus,
-.link:active {
   opacity: 1;
   box-shadow: 0 2px 0 #0070f3;
 }
@@ -176,9 +172,6 @@
 }
 
 .title a, .title span {
-=======
-.title a,
-.title span {
   color: #0070f3;
   text-decoration: none;
 }
@@ -310,7 +303,6 @@
   }
 }
 
-=======
 .blueButton {
   background-color: #008cba;
   border: none;
