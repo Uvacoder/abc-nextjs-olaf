@@ -382,7 +382,7 @@ export default function Home() {
 			</footer>
 		</div>
 	)
-=======
+
   const [mounted, setMounted] = useState(false);
   const { setTheme, resolvedTheme } = useTheme();
 
