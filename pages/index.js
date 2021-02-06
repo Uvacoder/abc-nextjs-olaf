@@ -392,5 +392,6 @@ export default function Home() {
           <img src="/mlh.png" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
+    </div>
   );
 }
