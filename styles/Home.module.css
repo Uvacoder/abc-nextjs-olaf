@@ -46,6 +46,10 @@
 }
 
 .link:hover, .link:focus, .link:active {
+=======
+.link:hover,
+.link:focus,
+.link:active {
   opacity: 1;
   box-shadow: 0 2px 0 #0070f3;
 }
@@ -89,7 +93,7 @@
   background-color: white;
   border-radius: 50%;
   transition: transform 200ms ease-out;
-  content: '';
+  content: "";
 }
 
 .input:checked+.slider {
@@ -106,12 +110,14 @@
 
 .iconDark {
   position: absolute;
+  cursor: pointer;
   top: 50%;
   transform: translateY(-55%);
 }
 
 .iconLight {
   position: absolute;
+  cursor: pointer;
   top: 50%;
   transform: translateY(-55%);
   right: 6px;
@@ -170,6 +176,9 @@
 }
 
 .title a, .title span {
+=======
+.title a,
+.title span {
   color: #0070f3;
   text-decoration: none;
 }
@@ -208,7 +217,7 @@
 }
 
 .section div {
-  height: 300px
+  height: 300px;
 }
 
 .teamSection {
@@ -224,7 +233,7 @@
   font-size: calc(30px + 2vw);
   font-weight: 700;
   display: block;
-  padding-top: 100px
+  padding-top: 100px;
 }
 
 .card, .teamCard{
@@ -301,3 +310,29 @@
   }
 }
 
+=======
+.blueButton {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+
+  cursor: pointer;
+  height: 15%;
+  width: 60%;
+  border-radius: 10px;
+  display: block;
+  margin: 10px auto;
+}
+.projectImage {
+  width: 100%;
+  height: 85%;
+  object-fit: contain;
+}
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+}
