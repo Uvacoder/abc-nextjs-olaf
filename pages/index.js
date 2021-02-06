@@ -335,7 +335,7 @@ export default function Home() {
 				</div>
 
         <img src="/funny-olaf.png" className={styles.sideImage}></img>
-        <h2 id="project" className={styles.sectionTitle}>
+        <h2 id="projects" className={styles.sectionTitle}>
           Projects
         </h2>
         <div className={styles.section}>
