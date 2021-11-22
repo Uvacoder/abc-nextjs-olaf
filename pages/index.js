@@ -16,7 +16,7 @@ export default function Home() {
 
 		<div className={styles.container}>
 			<Head>
-				<title>Open-Sourced Olaf</title>
+				<title>Open-Sourced abc Olaf</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
@@ -54,7 +54,7 @@ export default function Home() {
 
 			<main className={styles.main}>
 				<h1 className={styles.title}>
-					<span>Open-Sourced</span> Olaf
+					<span>Open-Sourced abc</span> Olaf
 				</h1>
 
 				<img className={styles.heroImage} src="/olaf.png"></img>
